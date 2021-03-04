@@ -1,0 +1,111 @@
+V1.1
+
+Main features of the release:
+* Added GetMetadata and SetMetadata methods to the SaveMaster class. Setting this data will create a 
+seperate file that contains data for the save game. This is useful if you want to store data such as game screenshots seperately from the actual save game file.
+* Faster adding/removing of saveables. No longer big spikes when removing/adding thousands of saveables from a huge scene.
+* Added saving as Binary and SQLite options, also possible to convert from one type another.
+* Added basic encryption (AES, with a Key and IV you can set in the save settings)
+* Added menu option to decrypt all existing save game files.
+* You are now able to save the identification of saveables using scriptable objects.
+* Added a example game template that demonstrates all saving features.
+* You can now add custom resource loading by calling:
+SaveMaster.AddPrefabResource("ExampleCustomPrefabResource", (id) => { return prefab; });
+You can find an example of this in the Example Game Template.
+* Added support for temporary slots. Making it possible to have a saved game (in memory) without setting it to a slot.
+And saving it to a specific slot later on calling SaveMaster.SetSlot(index, false, keepActiveSaveData : true)
+* Added a SaveScreenshot component, which automatically creates a screenshot when the save is written to disk.
+* Added a SaveLastUsedScenes and LoadLastUsedScenes component, which makes it possible to save the last loaded scenes
+upon setting the save slot. And saving the last used scenes when writing to disk.
+
+Changelog:
+* Added saveWhenDisabled option to Saveables (Default behaviour is on)
+* Added option to easily add/use/create a ScriptableObject variable for saveables. Useful if you
+want to prevent mistakes when having a ID that occurs in multiple scenes.
+* Dynamically added saveables now show up in the inspector
+* Added a new option for naming components with saveables, initially they were not named acccording to the component name.
+* Added boolean HasSaved and HasLoaded, this allows you to identify if it actually has saved any components.
+* Added additional checks to loading to improve performance.
+
+SavePosition:
+* The initial position is always saved. To ensure any saved prefab instance gets saved.
+Even when it is at 0,0,0
+
+SaveRotation:
+* The initial rotation is always saved. To ensure any saved prefab instance gets saved.
+Even when the rotation is at 0,0,0
+
+SaveScale:
+* Reduced Unity transform calls for Save Scale component.
+
+SaveGame & SaveFileUtility:
+* Now supports multiple storage types: {JSON, Binary, SQLite} 
+* Supports converting between storage types and also checks if the type is valid
+* Fixed the way JSON gets written, No more strange characters before the {
+* Abstracted the SaveGame class to allow for polymorphism.
+Whereas a different type gets created based on the save type. JSON, Binary or SQLite
+* Added an AES encryption option (Not optimized yet, beta feature)
+
+SaveInstanceManager:
+* Now caches any Resource.Load calls within the script
+* Added SaveOption: Clean Empty Saved Prefabs, false by default. What this does, is it ensures
+no saved instances get saved or spawned if there is no save data tied to them.
+* This will ensure saved instances without saved data do not get spawned again.
+* Will now give an error (instead of warning) when a resource has no Saveable component attached to it.
+
+Save Settings:
+* Added following options: storageType, fileValidation, legacyDynamicComponentNames
+
+Save Master:
+* Collection types now get cleaned before scene load. This is to prevent errors when using quick run in Unity.
+* Saving for Save Instance Managers is now managed seperately from Saveables.
+* Saveables are no longer stored in a List collection type, but instead a Hashset. This decision was made to reduce lag in
+scene that contain a lot of saveables.
+* Added method ReloadActiveSaveFromDisk(). This method reloads the save file without saving to it. Good if you have a save point system.
+So if you die, you will just load the last save again.
+* Added method SaveListener(Saveable saveable). Allows you to save individual Saveables in case they are set to manual save load.
+* Added method LoadListener(Saveable saveable). Allows you to load individual Saveables in case they are set to manual save load.
+* SpawnSavedPrefab no longer accepts an empty filepath. Gives an error instead
+* Added a method called ClearActiveSaveData(), this can be used to clear all the save data of the active save.
+
+V1.071
+
+Main features of the release:
+* Multi-scene saved prefab support (https://streamable.com/63yl8)
+* Fixed issue related to the OnSaveCondition, where it would stop saving
+* Added delegates to the SaveMaster class. Making it possible to listen to 4 types of events
+onSlotChangeBegin onSlotChangeDone onWritingToDiskBegin onWritingToDiskDone 
+* Added the "SaveMaster.SetSlotAndCopyActiveSave(slot)" method. Which makes it possible to easily
+copy over your current save slot to another one.
+
+Changelog:
+* Saveable component now no longer stores a reference to the last used SaveGame. Lowered the amount of responsibilities for the component.
+* The WipeData method (On Saveables) is now called from the SaveMaster class. By calling SaveMaster.WipeSaveable(Saveable)
+* Added SaveMaster.ReloadListener(Saveable) method to the save master.
+This can get called if new components have been added to a saveable.
+* Fixed issue that prevented Saveables from saving when switching between save slots.
+This was due to the OnSaveCondition blocking the save, even tough it was set to a new slot.
+ResetState() is now called on the Saveable components upon switching saves.
+* Saveable field "saveIdentification" is now private. In order to set or retrieve the value, you have to access
+SaveIdentification.
+* When passing "" through the OnSave method, it no longer stores that data to the saveGame.
+* Added method SaveMaster.SetSlotAndCopyActiveSave(slot) to make it possible to copy the current save to a different slot.
+And use that slot instead.
+* Added events you can listen to for the SaveMaster. This is useful if you want to
+load/unload scenes before a slot gets loaded.
+* Added parameter to SaveMaster.SpawnSavedPrefab. You can now specify which scene to save the saveable to.
+By default it will use the active scene.
+* Fixed issue with the SaveInstanceManager, where it was possible to spawn instances that were assigned to a different scene.
+* SavedInstance component is no longer addable through the inspector. Adding this is done through code
+by the SaveInstanceManager.
+* Save Instance Managers now only get created if there is data present for them.
+Or when a new saved prefab gets spawned.
+* Fixed issue in initialization of Saveables, hasIdentification now gets lazy initialization upon first load.
+* Added support for spawning Saved Instances in duplicated scenes. You are required to create a Save Instance Manager with a custom ID for a duplicate scene.
+
+* Fixed missing namespace issue, causing compile errors when targeting WEBGL
+* Fixed issue where you would get an error when loading scenes without an active save game
+
+V1.07
+
+Initial release

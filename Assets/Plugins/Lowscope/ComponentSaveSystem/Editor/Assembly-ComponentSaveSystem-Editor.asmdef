@@ -1,0 +1,16 @@
+{
+    "name": "Assembly-ComponentSaveSystem-Editor",
+    "references": [
+        "Assembly-ComponentSaveSystem"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}

@@ -1,0 +1,8 @@
+All sounds are public domain. Free to use commercially.
+
+ExampleGame_Jump_Thud - https://freesound.org/people/OtisJames/sounds/215162/
+ExampleGame_PlaceBomb - https://freesound.org/people/Mafon2/sounds/320847/
+ExampleGame_Explosion - https://freesound.org/people/Werra/sounds/244394/
+ExampleGame_Pickup - https://freesound.org/people/Phenala/sounds/478647/
+ExampleGame_PickupGem - https://freesound.org/people/high_festiva/sounds/194439/
+ExampleGame_UnlockDoor - https://freesound.org/people/IPaddeh/sounds/422852/

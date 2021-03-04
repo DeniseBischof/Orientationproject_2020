@@ -1,0 +1,18 @@
+
+
+This asset is governed by the Asset Store EULA; 
+however, the following components are governed by the licenses indicated below:
+
+[Component Save System v1.071] under [MIT] [https://github.com/AlexMeesters/Component-Save-System/blob/master/LICENSE]
+[SQLite.Net] under [MIT] [https://github.com/praeclarum/sqlite-net/blob/master/LICENSE.txt]
+[SQLite4Unity] under [MIT] [https://github.com/robertohuertasm/SQLite4Unity3d/blob/master/LICENSE]
+[FloatReferenceDrawer] under [MIT] [https://github.com/roboryantron/Unite2017/blob/master/LICENSE]
+[Kay Kit Mini Game Variety Pack] under [ CC.0 Public Domain] [https://kaylousberg.itch.io/kay-kit-mini-game-variety-pack]
+[Kenney.nl Interface Sounds] under [CC.0 Public Domain] [https://www.kenney.nl/support]
+[Kenney.nl Game Icons]  under [CC.0 Public Domain] [https://www.kenney.nl/support]
+[Thud.wav] under [CC.0 Public Domain] [https://freesound.org/people/OtisJames/sounds/215162/]
+[ItemPlaced] under [CC.0 Public Domain] [https://freesound.org/people/Mafon2/sounds/320847/]
+[Explosion Metallic] under [CC.0 Public Domain] [https://freesound.org/people/Werra/sounds/244394/]
+[Coin Pickup.mp3] under [CC.0 Public Domain] [https://freesound.org/people/Phenala/sounds/478647/]
+[gem_ping.wav] under [CC.0 Public Domain] [https://freesound.org/people/high_festiva/sounds/194439/]
+[Door_Unlocking.wav] under [CC.0 Public Domain] [https://freesound.org/people/IPaddeh/sounds/422852/]
