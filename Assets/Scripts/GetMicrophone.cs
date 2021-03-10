@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿#if UNITY_EDITOR_WIN
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -20,3 +21,4 @@ public class GetMicrophone : MonoBehaviour
         
     }
 }
+#endif

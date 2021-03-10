@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿#if UNITY_EDITOR_WIN
+using System.Collections.Generic;
 using System.Linq;
 using System;
 using System.Collections;
@@ -7,7 +8,6 @@ using UnityEngine.Windows.Speech;
 
 public class LookAround : MonoBehaviour
 {
-
     public GameObject[] ObjectsAroundYou;
 
     // Voice command vars
@@ -105,6 +105,7 @@ public class LookAround : MonoBehaviour
         }
     }
 }
+#endif
 
 
 

@@ -4,12 +4,14 @@ using UnityEngine;
 
 public class TurnOnChoices : MonoBehaviour
 {
-
-    public GameObject Choice;
+    [SerializeField]
+    private GameObject[] Choices;
+    public float SecondsToWait = 0;
 
     private void Start()
     {
         StartCoroutine(waitForSound());
+        Debug.Log("waiting for sound from: " + this.name.ToString());
     }
 
     IEnumerator waitForSound()
@@ -19,7 +21,14 @@ public class TurnOnChoices : MonoBehaviour
             yield return null;
         }
 
-        Choice.SetActive(true);
+        yield return new WaitForSeconds(SecondsToWait);
+
+        for (int i = 0; i < Choices.Length; i++)
+        {
+            Debug.Log("turning on: " + Choices[i].ToString());
+            Choices[i].SetActive(true);
+        }
+
     }
 
 }

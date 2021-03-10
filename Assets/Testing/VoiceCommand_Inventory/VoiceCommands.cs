@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿#if UNITY_EDITOR_WIN
+using System.Collections.Generic;
 using System.Linq;
 using System;
 using System.Collections;
@@ -104,5 +105,5 @@ public class VoiceCommands : MonoBehaviour
 
 
 }
-
+#endif
 

@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿#if UNITY_EDITOR_WIN
+using System.Collections.Generic;
 using System.Linq;
 using System;
 using System.Collections;
@@ -7,7 +8,6 @@ using UnityEngine.Windows.Speech;
 
 public class ShowHints : MonoBehaviour
 {
-
 
     private Dictionary<string, Action> keyActs = new Dictionary<string, Action>();
     private KeywordRecognizer recognizer;
@@ -33,3 +33,4 @@ public class ShowHints : MonoBehaviour
         Debug.Log("This is a hint");
     }
 }
+#endif

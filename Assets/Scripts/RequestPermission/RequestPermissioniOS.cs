@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿#if UNITY_IOS
+using UnityEngine;
 using UnityEngine.iOS;
 using System.Collections;
 
@@ -47,3 +48,4 @@ public class RequestPermissioniOS : MonoBehaviour
         }
     }
 }
+#endif
