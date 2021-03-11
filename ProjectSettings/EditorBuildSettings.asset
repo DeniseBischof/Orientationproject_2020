@@ -6,15 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Finished Games/The Beast in the Cave/Start_TheBeastInTheCave.unity
-    guid: 00532a2a761b01c408830fb0d41f7113
-  - enabled: 1
-    path: Assets/Finished Games/The Beast in the Cave/TheBeastInTheCave.unity
-    guid: dee23a7f68804c44c8ba18d48a484a97
-  - enabled: 0
     path: Assets/Finished Games/I Told You This Was A Bad Idea/IToldYouThisWasABadIdea.unity
     guid: 14a56d65068716d43af74e743372550d
-  - enabled: 0
-    path: Assets/Testing/WebGL_VoiceCommands/WebGL_Confidence.unity
-    guid: f4a7086464797d041a2e67f088a8da99
   m_configObjects: {}
