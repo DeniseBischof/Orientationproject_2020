@@ -7,13 +7,20 @@ public class TurnOnChoices : MonoBehaviour
     [SerializeField]
     private GameObject[] Choices;
     public float SecondsToWait = 0;
+    public bool AutoStart = true;
 
     private void Start()
     {
+        if (AutoStart) { 
         StartCoroutine(waitForSound());
         Debug.Log("waiting for sound from: " + this.name.ToString());
+        }
     }
 
+    public void StartWaitForSound()
+    {
+        StartCoroutine(waitForSound());
+    }
     IEnumerator waitForSound()
     {
         while (GetComponent<AudioSource>().isPlaying)

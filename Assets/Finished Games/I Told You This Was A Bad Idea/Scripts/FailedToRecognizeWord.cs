@@ -17,6 +17,8 @@ namespace UnityWebGLSpeechDetection
     [SerializeField]
     private string[] wordsToDetect;
 
+        public bool canRecognize = true;
+
     [Serializable]
     public class StartThisEvent : UnityEvent { }
 
@@ -97,18 +99,23 @@ namespace UnityWebGLSpeechDetection
                 Debug.LogFormat("Detected: {0}", lower);
                 foreach (string word in _mWords)
                 {
-                    if (lower.Contains(word))
-                    {
-                        Debug.Log(string.Format("**** {0} ****", word));
-                        doAbort = true;
-                        break;
+                        if (lower.Contains(word))
+                        {
+                            Debug.Log(string.Format("**** {0} ****", word));
+                            doAbort = true;
+                            break;
                         }
                         else
                         {
+                            if (canRecognize) 
+                            { 
                             Press();
                             Debug.Log(string.Format("**** {0} ****", word));
                             doAbort = true;
                             Debug.Log("I do not know that word");
+                            canRecognize = false;
+                            }
+
                             break;
                         }
                 }
@@ -129,6 +136,10 @@ namespace UnityWebGLSpeechDetection
         return false;
     }
 
+        public void turnOnRecognition()
+        {
+            canRecognize = true;
+        }
 
 }
  }

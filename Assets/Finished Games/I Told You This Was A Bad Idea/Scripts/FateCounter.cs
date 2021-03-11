@@ -6,7 +6,7 @@ public class FateCounter : MonoBehaviour
 {
     public int Good = 0;
     public int Bad = 0;
-    public int Neutral = 0;
+    public int Knowledge = 0;
 
     public void AddGood()
     {
@@ -18,9 +18,9 @@ public class FateCounter : MonoBehaviour
         Bad = +1;
         Debug.Log("Bad: " + Bad);
     }
-    public void AddNeutral()
+    public void AddKnowledge()
     {
-        Neutral = +1;
-        Debug.Log("Neutral: " + Neutral);
+        Knowledge = +1;
+        Debug.Log("Neutral: " + Knowledge);
     }
 }
