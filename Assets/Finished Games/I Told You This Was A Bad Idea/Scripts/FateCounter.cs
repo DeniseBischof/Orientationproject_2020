@@ -4,15 +4,23 @@ using UnityEngine;
 
 public class FateCounter : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public int Good = 0;
+    public int Bad = 0;
+    public int Neutral = 0;
 
-    // Update is called once per frame
-    void Update()
+    public void AddGood()
     {
-        
+        Good = +1;
+        Debug.Log("Good: " + Good);
+    }
+    public void AddBad()
+    {
+        Bad = +1;
+        Debug.Log("Bad: " + Bad);
+    }
+    public void AddNeutral()
+    {
+        Neutral = +1;
+        Debug.Log("Neutral: " + Neutral);
     }
 }

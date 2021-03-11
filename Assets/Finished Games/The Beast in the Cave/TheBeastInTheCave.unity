@@ -780,6 +780,8 @@ MonoBehaviour:
   - I waited for the beast to come near
   - beast to come near
   - I waited for
+  - beast
+  - waited
   getCounter:
     m_PersistentCalls:
       m_Calls:
@@ -1442,6 +1444,8 @@ MonoBehaviour:
   wordsToDetect:
   - I remained still and silent
   - still and silent
+  - still
+  - silent
   getCounter:
     m_PersistentCalls:
       m_Calls:
@@ -4829,6 +4833,7 @@ MonoBehaviour:
   Choices:
   - {fileID: 1014248802}
   - {fileID: 1269498414}
+  - {fileID: 491845400}
   SecondsToWait: 0
 --- !u!82 &614703681
 AudioSource:
@@ -11240,6 +11245,7 @@ MonoBehaviour:
   wordsToDetect:
   - I threw another rock
   - another rock
+  - another
   getCounter:
     m_PersistentCalls:
       m_Calls:
@@ -12257,6 +12263,8 @@ MonoBehaviour:
   wordsToDetect:
   - I threw a rock
   - a rock
+  - threw
+  - rock
   getCounter:
     m_PersistentCalls:
       m_Calls:
@@ -13342,6 +13350,7 @@ MonoBehaviour:
   wordsToDetect:
   - I stood my ground
   - my ground
+  - ground
   getCounter:
     m_PersistentCalls:
       m_Calls:
@@ -18787,6 +18796,7 @@ MonoBehaviour:
   Choices:
   - {fileID: 1459822920}
   - {fileID: 391804304}
+  - {fileID: 491845400}
   SecondsToWait: 0
 --- !u!82 &1999898036
 AudioSource:
@@ -19756,6 +19766,7 @@ MonoBehaviour:
   wordsToDetect:
   - I searched for a weapon
   - a weapon
+  - weapon
   getCounter:
     m_PersistentCalls:
       m_Calls:
@@ -20048,6 +20059,7 @@ MonoBehaviour:
   wordsToDetect:
   - I waited longer
   - longer
+  - waited
   getCounter:
     m_PersistentCalls:
       m_Calls:
