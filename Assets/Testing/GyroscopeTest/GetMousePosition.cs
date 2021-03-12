@@ -9,9 +9,14 @@ public class GetMousePosition : MonoBehaviour
 
     AudioSource wandSound;
 
+
     public int counter = 0;
+    public int counterForEventSart = 500;
 
     IEnumerator fadeSound;
+
+    private bool wandMoving;
+    public GameObject turnOnObject;
 
     void Start()
     {
@@ -25,10 +30,11 @@ public class GetMousePosition : MonoBehaviour
     void LateUpdate()
     {
         increaseVolumeWithcounter();
+        IfWandIsMoving();
 
         if (Input.GetMouseButton(0))
         {
-            
+            wandMoving = true;
             Vector3 temp = Input.mousePosition;
             temp.z = 5f;
             this.transform.position = Camera.main.ScreenToWorldPoint(temp);
@@ -37,6 +43,7 @@ public class GetMousePosition : MonoBehaviour
         }
         else
         {
+            wandMoving = false;
             counter = 0;
         }
 
@@ -50,7 +57,6 @@ public class GetMousePosition : MonoBehaviour
             wandSound.UnPause();
             counter += 1;
             Debug.Log(counter);
-            print("Mouse moving");
         }
 
     }
@@ -94,5 +100,25 @@ public class GetMousePosition : MonoBehaviour
         }
         audioSource.Pause();
         yield break;
+    }
+
+    public void IfWandIsMoving()
+    {
+        if (wandMoving)
+        {
+            turnOnObject.SetActive(true);
+        }
+        else
+        {
+            turnOnObject.SetActive(false);
+        }
+    }
+
+    public void checkCounter()
+    {
+        if(counter > counterForEventSart)
+        {
+
+        }
     }
 }

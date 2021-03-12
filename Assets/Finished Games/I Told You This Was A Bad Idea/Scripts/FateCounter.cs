@@ -8,19 +8,29 @@ public class FateCounter : MonoBehaviour
     public int Bad = 0;
     public int Knowledge = 0;
 
+    public GameObject EndSequence;
+
     public void AddGood()
     {
-        Good = +1;
+        Good = Good+1;
         Debug.Log("Good: " + Good);
     }
     public void AddBad()
     {
-        Bad = +1;
+        Bad = Bad+1;
         Debug.Log("Bad: " + Bad);
     }
     public void AddKnowledge()
     {
-        Knowledge = +1;
+        Knowledge = Knowledge + 1;
         Debug.Log("Neutral: " + Knowledge);
+    }
+
+    public void CheckKnowledge()
+    {
+        if (Knowledge > 4)
+        {
+            EndSequence.SetActive(true);
+        }
     }
 }

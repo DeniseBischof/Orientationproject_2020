@@ -202,122 +202,6 @@ MonoBehaviour:
   getCounter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1983193009}
-        m_TargetAssemblyTypeName: UnityWebGLSpeechDetection.CommandTurnOffAfterUse,
-          Assembly-CSharp
-        m_MethodName: turnOnThisAnswer
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 418201542}
-        m_TargetAssemblyTypeName: UnityWebGLSpeechDetection.CommandTurnOffAfterUse,
-          Assembly-CSharp
-        m_MethodName: turnOnThisAnswer
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 205401173}
-        m_TargetAssemblyTypeName: UnityWebGLSpeechDetection.CommandTurnOffAfterUse,
-          Assembly-CSharp
-        m_MethodName: turnOnThisAnswer
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 909644930}
-        m_TargetAssemblyTypeName: UnityWebGLSpeechDetection.CommandTurnOffAfterUse,
-          Assembly-CSharp
-        m_MethodName: turnOnThisAnswer
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 815124400}
-        m_TargetAssemblyTypeName: UnityWebGLSpeechDetection.CommandTurnOffAfterUse,
-          Assembly-CSharp
-        m_MethodName: turnOnThisAnswer
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1514727094}
-        m_TargetAssemblyTypeName: UnityWebGLSpeechDetection.CommandTurnOffAfterUse,
-          Assembly-CSharp
-        m_MethodName: turnOnThisAnswer
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1070214589}
-        m_TargetAssemblyTypeName: UnityWebGLSpeechDetection.CommandTurnOffAfterUse,
-          Assembly-CSharp
-        m_MethodName: turnOnThisAnswer
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 330645363}
-        m_TargetAssemblyTypeName: UnityWebGLSpeechDetection.CommandTurnOffAfterUse,
-          Assembly-CSharp
-        m_MethodName: turnOnThisAnswer
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: UnityEngine.MonoBehaviour, UnityEngine
-        m_MethodName: StopAllCoroutines
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 1780413682}
         m_TargetAssemblyTypeName: FateCounter, Assembly-CSharp
         m_MethodName: AddGood
@@ -342,10 +226,34 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 2037687498}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 1780413682}
+        m_TargetAssemblyTypeName: FateCounter, Assembly-CSharp
+        m_MethodName: AddKnowledge
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1861381919}
+        m_TargetAssemblyTypeName: TurnOffScriptInAllChildren, Assembly-CSharp
+        m_MethodName: TurnOnVoiceRecognition
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1861381918}
+        m_TargetAssemblyTypeName: UnityEngine.MonoBehaviour, UnityEngine
+        m_MethodName: StopAllCoroutines
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -383,7 +291,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 32
+  m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &63213327
 GameObject:
@@ -1065,7 +973,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &99880516
 GameObject:
@@ -1367,7 +1275,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 445730, guid: 26b2e9d087c0061438d3ccffd78fe62b, type: 3}
       propertyPath: m_RootOrder
-      value: 36
+      value: 37
       objectReference: {fileID: 0}
     - target: {fileID: 445730, guid: 26b2e9d087c0061438d3ccffd78fe62b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1627,7 +1535,19 @@ MonoBehaviour:
   - No
   getCounter:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1861381918}
+        m_TargetAssemblyTypeName: UnityEngine.MonoBehaviour, UnityEngine
+        m_MethodName: StopAllCoroutines
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &163240516
 GameObject:
   m_ObjectHideFlags: 0
@@ -1920,10 +1840,9 @@ MonoBehaviour:
   getCounter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1983193009}
-        m_TargetAssemblyTypeName: UnityWebGLSpeechDetection.CommandTurnOffAfterUse,
-          Assembly-CSharp
-        m_MethodName: turnOnThisAnswer
+      - m_Target: {fileID: 1861381918}
+        m_TargetAssemblyTypeName: UnityEngine.MonoBehaviour, UnityEngine
+        m_MethodName: StopAllCoroutines
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2060,6 +1979,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1131941529}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!1 &181927866
 GameObject:
   m_ObjectHideFlags: 0
@@ -2157,10 +2088,10 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 739518710}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 1861381919}
+        m_TargetAssemblyTypeName: TurnOffScriptInAllChildren, Assembly-CSharp
+        m_MethodName: TurnOffVoiceRecognition
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2613,10 +2544,10 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 169407843}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 1861381918}
+        m_TargetAssemblyTypeName: TurnOnAfterSeconds, Assembly-CSharp
+        m_MethodName: turnOn
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2625,9 +2556,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 1861381918}
-        m_TargetAssemblyTypeName: TurnOnAfterSeconds, Assembly-CSharp
-        m_MethodName: turnOn
+      - m_Target: {fileID: 1861381919}
+        m_TargetAssemblyTypeName: TurnOffScriptInAllChildren, Assembly-CSharp
+        m_MethodName: TurnOffVoiceRecognition
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2871,6 +2802,7 @@ GameObject:
   - component: {fileID: 215751025}
   - component: {fileID: 215751024}
   - component: {fileID: 215751028}
+  - component: {fileID: 215751029}
   m_Layer: 0
   m_Name: 8_WHY
   m_TagString: Untagged
@@ -3078,6 +3010,33 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &215751029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 215751023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49b2e4bd111ff1f4d9c1b8fa6f690edf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  getCounter:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1780413682}
+        m_TargetAssemblyTypeName: FateCounter, Assembly-CSharp
+        m_MethodName: CheckKnowledge
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &259136943
 GameObject:
   m_ObjectHideFlags: 0
@@ -3341,7 +3300,7 @@ Transform:
   m_Children:
   - {fileID: 1635572459}
   m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &306614596
 GameObject:
@@ -3557,13 +3516,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   wordsToDetect:
   - Yes
+  - rumours
+  - rumour
   getCounter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1983193009}
-        m_TargetAssemblyTypeName: UnityWebGLSpeechDetection.CommandTurnOffAfterUse,
-          Assembly-CSharp
-        m_MethodName: turnOnThisAnswer
+      - m_Target: {fileID: 1861381918}
+        m_TargetAssemblyTypeName: UnityEngine.MonoBehaviour, UnityEngine
+        m_MethodName: StopAllCoroutines
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3687,6 +3647,18 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1885069950}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 1885069950}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
@@ -4198,10 +4170,9 @@ MonoBehaviour:
   getCounter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1983193009}
-        m_TargetAssemblyTypeName: UnityWebGLSpeechDetection.CommandTurnOffAfterUse,
-          Assembly-CSharp
-        m_MethodName: turnOnThisAnswer
+      - m_Target: {fileID: 1861381918}
+        m_TargetAssemblyTypeName: UnityEngine.MonoBehaviour, UnityEngine
+        m_MethodName: StopAllCoroutines
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4325,6 +4296,18 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 882701849}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 882701849}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
@@ -5225,6 +5208,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1861381918}
         m_TargetAssemblyTypeName: TurnOnAfterSeconds, Assembly-CSharp
         m_MethodName: turnOn
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1861381919}
+        m_TargetAssemblyTypeName: TurnOffScriptInAllChildren, Assembly-CSharp
+        m_MethodName: TurnOffVoiceRecognition
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6987,10 +6982,9 @@ MonoBehaviour:
   getCounter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1983193009}
-        m_TargetAssemblyTypeName: UnityWebGLSpeechDetection.CommandTurnOffAfterUse,
-          Assembly-CSharp
-        m_MethodName: turnOnThisAnswer
+      - m_Target: {fileID: 1861381918}
+        m_TargetAssemblyTypeName: UnityEngine.MonoBehaviour, UnityEngine
+        m_MethodName: StopAllCoroutines
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7114,6 +7108,18 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1309435486}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 1309435486}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
@@ -8023,7 +8029,19 @@ MonoBehaviour:
   - No
   getCounter:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1861381918}
+        m_TargetAssemblyTypeName: UnityEngine.MonoBehaviour, UnityEngine
+        m_MethodName: StopAllCoroutines
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &733399349
 GameObject:
   m_ObjectHideFlags: 0
@@ -8320,10 +8338,9 @@ MonoBehaviour:
   getCounter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1983193009}
-        m_TargetAssemblyTypeName: UnityWebGLSpeechDetection.CommandTurnOffAfterUse,
-          Assembly-CSharp
-        m_MethodName: turnOnThisAnswer
+      - m_Target: {fileID: 1861381918}
+        m_TargetAssemblyTypeName: UnityEngine.MonoBehaviour, UnityEngine
+        m_MethodName: StopAllCoroutines
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -8507,7 +8524,19 @@ MonoBehaviour:
   - No
   getCounter:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1861381918}
+        m_TargetAssemblyTypeName: UnityEngine.MonoBehaviour, UnityEngine
+        m_MethodName: StopAllCoroutines
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &787683044
 GameObject:
   m_ObjectHideFlags: 0
@@ -9058,7 +9087,7 @@ Transform:
   m_Children:
   - {fileID: 929396952}
   m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &798459131
 GameObject:
@@ -9257,7 +9286,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 26
+  m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &802326210
 GameObject:
@@ -9553,9 +9582,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 1861381918}
-        m_TargetAssemblyTypeName: TurnOnAfterSeconds, Assembly-CSharp
-        m_MethodName: turnOn
+      - m_Target: {fileID: 1861381919}
+        m_TargetAssemblyTypeName: TurnOffScriptInAllChildren, Assembly-CSharp
+        m_MethodName: TurnOffVoiceRecognition
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -9734,6 +9763,147 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &845731113
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 845731117}
+  - component: {fileID: 845731114}
+  - component: {fileID: 845731115}
+  m_Layer: 0
+  m_Name: START_END
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &845731114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 845731113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55b18c7ac7461b3468ec97ac6d358baf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AI_Text: 
+--- !u!82 &845731115
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 845731113}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 347931703df620b4995df2f3aab7d0a8, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &845731117
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 845731113}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -16.42, y: -27.72, z: -6.276543}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 18
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &852553253
 GameObject:
   m_ObjectHideFlags: 0
@@ -9893,7 +10063,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 29
+  m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &861379820
 GameObject:
@@ -10127,7 +10297,7 @@ RectTransform:
   m_Children:
   - {fileID: 739224815}
   m_Father: {fileID: 0}
-  m_RootOrder: 37
+  m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -10147,6 +10317,7 @@ GameObject:
   - component: {fileID: 882701851}
   - component: {fileID: 882701850}
   - component: {fileID: 882701854}
+  - component: {fileID: 882701855}
   m_Layer: 0
   m_Name: 5_PLAN
   m_TagString: Untagged
@@ -10341,6 +10512,33 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &882701855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 882701849}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49b2e4bd111ff1f4d9c1b8fa6f690edf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  getCounter:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1780413682}
+        m_TargetAssemblyTypeName: FateCounter, Assembly-CSharp
+        m_MethodName: CheckKnowledge
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &886995008
 GameObject:
   m_ObjectHideFlags: 0
@@ -10369,7 +10567,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 34
+  m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &890521356
 GameObject:
@@ -10788,10 +10986,10 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 310841404}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 1861381918}
+        m_TargetAssemblyTypeName: TurnOnAfterSeconds, Assembly-CSharp
+        m_MethodName: turnOn
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -10800,9 +10998,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 1861381918}
-        m_TargetAssemblyTypeName: TurnOnAfterSeconds, Assembly-CSharp
-        m_MethodName: turnOn
+      - m_Target: {fileID: 1861381919}
+        m_TargetAssemblyTypeName: TurnOffScriptInAllChildren, Assembly-CSharp
+        m_MethodName: TurnOffVoiceRecognition
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -11243,113 +11441,9 @@ MonoBehaviour:
   getCounter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1341461930}
-        m_TargetAssemblyTypeName: UnityWebGLSpeechDetection.CommandTurnOffAfterUse,
-          Assembly-CSharp
-        m_MethodName: turnOnThisAnswer
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 418201542}
-        m_TargetAssemblyTypeName: UnityWebGLSpeechDetection.CommandTurnOffAfterUse,
-          Assembly-CSharp
-        m_MethodName: turnOnThisAnswer
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 205401173}
-        m_TargetAssemblyTypeName: UnityWebGLSpeechDetection.CommandTurnOffAfterUse,
-          Assembly-CSharp
-        m_MethodName: turnOnThisAnswer
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 909644930}
-        m_TargetAssemblyTypeName: UnityWebGLSpeechDetection.CommandTurnOffAfterUse,
-          Assembly-CSharp
-        m_MethodName: turnOnThisAnswer
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 815124400}
-        m_TargetAssemblyTypeName: UnityWebGLSpeechDetection.CommandTurnOffAfterUse,
-          Assembly-CSharp
-        m_MethodName: turnOnThisAnswer
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1514727094}
-        m_TargetAssemblyTypeName: UnityWebGLSpeechDetection.CommandTurnOffAfterUse,
-          Assembly-CSharp
-        m_MethodName: turnOnThisAnswer
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1070214589}
-        m_TargetAssemblyTypeName: UnityWebGLSpeechDetection.CommandTurnOffAfterUse,
-          Assembly-CSharp
-        m_MethodName: turnOnThisAnswer
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 330645363}
-        m_TargetAssemblyTypeName: UnityWebGLSpeechDetection.CommandTurnOffAfterUse,
-          Assembly-CSharp
-        m_MethodName: turnOnThisAnswer
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1780413682}
-        m_TargetAssemblyTypeName: FateCounter, Assembly-CSharp
-        m_MethodName: AddKnowledge
+      - m_Target: {fileID: 1861381918}
+        m_TargetAssemblyTypeName: UnityEngine.MonoBehaviour, UnityEngine
+        m_MethodName: StopAllCoroutines
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -11375,6 +11469,30 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1861381919}
+        m_TargetAssemblyTypeName: TurnOffScriptInAllChildren, Assembly-CSharp
+        m_MethodName: TurnOnVoiceRecognition
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1861381919}
+        m_TargetAssemblyTypeName: TurnOffScriptInAllChildren, Assembly-CSharp
+        m_MethodName: TurnOnVoiceRecognition
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -11861,6 +11979,7 @@ GameObject:
   - component: {fileID: 1041481926}
   - component: {fileID: 1041481925}
   - component: {fileID: 1041481929}
+  - component: {fileID: 1041481930}
   m_Layer: 0
   m_Name: 7_NEXT
   m_TagString: Untagged
@@ -12048,6 +12167,33 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1041481930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1041481924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49b2e4bd111ff1f4d9c1b8fa6f690edf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  getCounter:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1780413682}
+        m_TargetAssemblyTypeName: FateCounter, Assembly-CSharp
+        m_MethodName: CheckKnowledge
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1046771927
 GameObject:
   m_ObjectHideFlags: 0
@@ -12248,7 +12394,7 @@ Transform:
   - {fileID: 1022453973}
   - {fileID: 362941321}
   m_Father: {fileID: 0}
-  m_RootOrder: 33
+  m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1064504091
 GameObject:
@@ -13075,6 +13221,8 @@ MonoBehaviour:
   wordsToDetect:
   - what happens next
   - next
+  - what do we do now
+  - do now
   getCounter:
     m_PersistentCalls:
       m_Calls:
@@ -13114,10 +13262,10 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 1960371022}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 1861381919}
+        m_TargetAssemblyTypeName: TurnOffScriptInAllChildren, Assembly-CSharp
+        m_MethodName: TurnOffVoiceRecognition
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -13560,7 +13708,7 @@ Transform:
   m_Children:
   - {fileID: 306614597}
   m_Father: {fileID: 0}
-  m_RootOrder: 25
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &1102810746
 AudioSource:
@@ -13784,7 +13932,7 @@ Transform:
   m_Children:
   - {fileID: 1991870470}
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1131087635
 GameObject:
@@ -14040,6 +14188,7 @@ GameObject:
   - component: {fileID: 1131941531}
   - component: {fileID: 1131941530}
   - component: {fileID: 1131941534}
+  - component: {fileID: 1131941535}
   m_Layer: 0
   m_Name: 3_WHERE
   m_TagString: Untagged
@@ -14241,6 +14390,33 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1131941535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1131941529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49b2e4bd111ff1f4d9c1b8fa6f690edf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  getCounter:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1780413682}
+        m_TargetAssemblyTypeName: FateCounter, Assembly-CSharp
+        m_MethodName: CheckKnowledge
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1132672892
 GameObject:
   m_ObjectHideFlags: 0
@@ -14355,7 +14531,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1132672892}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -18.28, y: -23.5, z: -6.276543}
+  m_LocalPosition: {x: -18.28003, y: -23.5, z: -6.2765427}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 403324570}
@@ -15513,6 +15689,7 @@ GameObject:
   - component: {fileID: 1309435488}
   - component: {fileID: 1309435487}
   - component: {fileID: 1309435491}
+  - component: {fileID: 1309435492}
   m_Layer: 0
   m_Name: 2_WHAT_HAPPENED
   m_TagString: Untagged
@@ -15712,6 +15889,33 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1309435492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1309435486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49b2e4bd111ff1f4d9c1b8fa6f690edf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  getCounter:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1780413682}
+        m_TargetAssemblyTypeName: FateCounter, Assembly-CSharp
+        m_MethodName: CheckKnowledge
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1341312723
 GameObject:
   m_ObjectHideFlags: 0
@@ -15998,110 +16202,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 1983193009}
-        m_TargetAssemblyTypeName: UnityWebGLSpeechDetection.CommandTurnOffAfterUse,
-          Assembly-CSharp
-        m_MethodName: turnOffThisAnswer
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 418201542}
-        m_TargetAssemblyTypeName: UnityWebGLSpeechDetection.CommandTurnOffAfterUse,
-          Assembly-CSharp
-        m_MethodName: turnOffThisAnswer
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 205401173}
-        m_TargetAssemblyTypeName: UnityWebGLSpeechDetection.CommandTurnOffAfterUse,
-          Assembly-CSharp
-        m_MethodName: turnOffThisAnswer
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 909644930}
-        m_TargetAssemblyTypeName: UnityWebGLSpeechDetection.CommandTurnOffAfterUse,
-          Assembly-CSharp
-        m_MethodName: turnOffThisAnswer
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 815124400}
-        m_TargetAssemblyTypeName: UnityWebGLSpeechDetection.CommandTurnOffAfterUse,
-          Assembly-CSharp
-        m_MethodName: turnOffThisAnswer
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 1514727094}
-        m_TargetAssemblyTypeName: UnityWebGLSpeechDetection.CommandTurnOffAfterUse,
-          Assembly-CSharp
-        m_MethodName: turnOffThisAnswer
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 330645363}
-        m_TargetAssemblyTypeName: UnityWebGLSpeechDetection.CommandTurnOffAfterUse,
-          Assembly-CSharp
-        m_MethodName: turnOffThisAnswer
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 330645363}
-        m_TargetAssemblyTypeName: UnityWebGLSpeechDetection.CommandTurnOffAfterUse,
-          Assembly-CSharp
-        m_MethodName: turnOffThisAnswer
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
       - m_Target: {fileID: 36641453}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
@@ -16117,6 +16217,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1861381918}
         m_TargetAssemblyTypeName: TurnOnAfterSeconds, Assembly-CSharp
         m_MethodName: turnOn
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1861381919}
+        m_TargetAssemblyTypeName: TurnOffScriptInAllChildren, Assembly-CSharp
+        m_MethodName: TurnOffVoiceRecognition
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -16923,7 +17035,7 @@ Transform:
   - {fileID: 1856939604}
   - {fileID: 540290955}
   m_Father: {fileID: 0}
-  m_RootOrder: 24
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &1377667603
 AudioSource:
@@ -17736,7 +17848,19 @@ MonoBehaviour:
   - No
   getCounter:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1861381918}
+        m_TargetAssemblyTypeName: UnityEngine.MonoBehaviour, UnityEngine
+        m_MethodName: StopAllCoroutines
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1429454281
 GameObject:
   m_ObjectHideFlags: 0
@@ -18262,7 +18386,7 @@ Transform:
   m_Children:
   - {fileID: 1454205435}
   m_Father: {fileID: 0}
-  m_RootOrder: 22
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &1446718082
 AudioSource:
@@ -19164,10 +19288,10 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 1539444301}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 1861381919}
+        m_TargetAssemblyTypeName: TurnOffScriptInAllChildren, Assembly-CSharp
+        m_MethodName: TurnOffVoiceRecognition
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -19223,7 +19347,19 @@ MonoBehaviour:
   - No
   getCounter:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1861381918}
+        m_TargetAssemblyTypeName: UnityEngine.MonoBehaviour, UnityEngine
+        m_MethodName: StopAllCoroutines
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1529480631
 GameObject:
   m_ObjectHideFlags: 0
@@ -19271,7 +19407,19 @@ MonoBehaviour:
   - No
   getCounter:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1861381918}
+        m_TargetAssemblyTypeName: UnityEngine.MonoBehaviour, UnityEngine
+        m_MethodName: StopAllCoroutines
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1530987462
 GameObject:
   m_ObjectHideFlags: 0
@@ -19489,10 +19637,9 @@ MonoBehaviour:
   getCounter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1983193009}
-        m_TargetAssemblyTypeName: UnityWebGLSpeechDetection.CommandTurnOffAfterUse,
-          Assembly-CSharp
-        m_MethodName: turnOnThisAnswer
+      - m_Target: {fileID: 1861381918}
+        m_TargetAssemblyTypeName: UnityEngine.MonoBehaviour, UnityEngine
+        m_MethodName: StopAllCoroutines
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -19629,6 +19776,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1741822592}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1543603454
 GameObject:
   m_ObjectHideFlags: 0
@@ -19676,7 +19835,19 @@ MonoBehaviour:
   - No
   getCounter:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1861381918}
+        m_TargetAssemblyTypeName: UnityEngine.MonoBehaviour, UnityEngine
+        m_MethodName: StopAllCoroutines
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1556073874
 GameObject:
   m_ObjectHideFlags: 0
@@ -20485,7 +20656,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 30
+  m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1632220621
 GameObject:
@@ -21291,10 +21462,9 @@ MonoBehaviour:
   getCounter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1983193009}
-        m_TargetAssemblyTypeName: UnityWebGLSpeechDetection.CommandTurnOffAfterUse,
-          Assembly-CSharp
-        m_MethodName: turnOnThisAnswer
+      - m_Target: {fileID: 1861381918}
+        m_TargetAssemblyTypeName: UnityEngine.MonoBehaviour, UnityEngine
+        m_MethodName: StopAllCoroutines
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -21303,7 +21473,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 0
+        m_CallState: 2
       - m_Target: {fileID: 418201542}
         m_TargetAssemblyTypeName: UnityWebGLSpeechDetection.CommandTurnOffAfterUse,
           Assembly-CSharp
@@ -21395,18 +21565,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 0
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: UnityEngine.MonoBehaviour, UnityEngine
-        m_MethodName: StopAllCoroutines
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 0
 --- !u!1 &1741822592
 GameObject:
   m_ObjectHideFlags: 0
@@ -21420,6 +21578,7 @@ GameObject:
   - component: {fileID: 1741822594}
   - component: {fileID: 1741822593}
   - component: {fileID: 1741822597}
+  - component: {fileID: 1741822598}
   m_Layer: 0
   m_Name: 6_TRIAL
   m_TagString: Untagged
@@ -21608,6 +21767,33 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1741822598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1741822592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49b2e4bd111ff1f4d9c1b8fa6f690edf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  getCounter:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1780413682}
+        m_TargetAssemblyTypeName: FateCounter, Assembly-CSharp
+        m_MethodName: CheckKnowledge
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1746849092
 GameObject:
   m_ObjectHideFlags: 0
@@ -21824,7 +22010,19 @@ MonoBehaviour:
   - No
   getCounter:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1861381918}
+        m_TargetAssemblyTypeName: UnityEngine.MonoBehaviour, UnityEngine
+        m_MethodName: StopAllCoroutines
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1770378277
 GameObject:
   m_ObjectHideFlags: 0
@@ -21854,7 +22052,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 23
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1780413681
 GameObject:
@@ -21890,6 +22088,7 @@ MonoBehaviour:
   Good: 0
   Bad: 0
   Knowledge: 0
+  EndSequence: {fileID: 845731113}
 --- !u!23 &1780413685
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -21951,7 +22150,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 28
+  m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1787010553
 GameObject:
@@ -22129,7 +22328,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 27
+  m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1809950582
 GameObject:
@@ -22509,7 +22708,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 409956, guid: 72052c559e8253541b541b2c1287e897, type: 3}
       propertyPath: m_RootOrder
-      value: 35
+      value: 36
       objectReference: {fileID: 0}
     - target: {fileID: 409956, guid: 72052c559e8253541b541b2c1287e897, type: 3}
       propertyPath: m_LocalPosition.x
@@ -22732,6 +22931,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1861381917}
   - component: {fileID: 1861381918}
+  - component: {fileID: 1861381919}
   m_Layer: 0
   m_Name: Questions
   m_TagString: Untagged
@@ -22776,9 +22976,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0144de08f9d77c440a1bdc5023ac4780, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sec: 10
+  sec: 50
   ObjectToTurnOn: {fileID: 861379820}
-  turnOnAutomatically: 1
+  turnOnAutomatically: 0
+--- !u!114 &1861381919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1861381916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd9177d626cca18429d301fe9eaf5610, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CommandsTurnOff: []
 --- !u!1 &1870143562
 GameObject:
   m_ObjectHideFlags: 0
@@ -22892,6 +23105,7 @@ GameObject:
   - component: {fileID: 1885069952}
   - component: {fileID: 1885069951}
   - component: {fileID: 1885069955}
+  - component: {fileID: 1885069956}
   m_Layer: 0
   m_Name: 4_COUNCIL
   m_TagString: Untagged
@@ -23082,6 +23296,33 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1885069956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1885069950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49b2e4bd111ff1f4d9c1b8fa6f690edf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  getCounter:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1780413682}
+        m_TargetAssemblyTypeName: FateCounter, Assembly-CSharp
+        m_MethodName: CheckKnowledge
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1899902386
 GameObject:
   m_ObjectHideFlags: 0
@@ -23302,13 +23543,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   wordsToDetect:
   - Yes
+  - what
+  - how
   getCounter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1983193009}
-        m_TargetAssemblyTypeName: UnityWebGLSpeechDetection.CommandTurnOffAfterUse,
-          Assembly-CSharp
-        m_MethodName: turnOnThisAnswer
+      - m_Target: {fileID: 1861381918}
+        m_TargetAssemblyTypeName: UnityEngine.MonoBehaviour, UnityEngine
+        m_MethodName: StopAllCoroutines
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -23531,7 +23773,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 31
+  m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1983193003
 GameObject:
@@ -23800,6 +24042,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1861381919}
+        m_TargetAssemblyTypeName: TurnOffScriptInAllChildren, Assembly-CSharp
+        m_MethodName: TurnOffVoiceRecognition
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!1 &1991870469
 GameObject:
   m_ObjectHideFlags: 0
@@ -24013,6 +24267,7 @@ GameObject:
   - component: {fileID: 2037687500}
   - component: {fileID: 2037687499}
   - component: {fileID: 2037687503}
+  - component: {fileID: 2037687504}
   m_Layer: 0
   m_Name: 0_WHO_AM_I
   m_TagString: Untagged
@@ -24209,6 +24464,33 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &2037687504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2037687498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49b2e4bd111ff1f4d9c1b8fa6f690edf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  getCounter:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1780413682}
+        m_TargetAssemblyTypeName: FateCounter, Assembly-CSharp
+        m_MethodName: CheckKnowledge
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2039103467
 GameObject:
   m_ObjectHideFlags: 0
@@ -24521,6 +24803,7 @@ GameObject:
   - component: {fileID: 2043238366}
   - component: {fileID: 2043238365}
   - component: {fileID: 2043238369}
+  - component: {fileID: 2043238370}
   m_Layer: 0
   m_Name: 1_WHO_ARE_YOU
   m_TagString: Untagged
@@ -24718,6 +25001,33 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &2043238370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2043238364}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49b2e4bd111ff1f4d9c1b8fa6f690edf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  getCounter:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1780413682}
+        m_TargetAssemblyTypeName: FateCounter, Assembly-CSharp
+        m_MethodName: CheckKnowledge
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2059028428
 GameObject:
   m_ObjectHideFlags: 0
@@ -25120,7 +25430,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 38
+  m_RootOrder: 39
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2115977252
 GameObject:

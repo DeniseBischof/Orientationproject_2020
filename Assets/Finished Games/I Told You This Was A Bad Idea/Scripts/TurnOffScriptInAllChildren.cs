@@ -26,4 +26,12 @@ public class TurnOffScriptInAllChildren : MonoBehaviour
             ctoau.turnOffThisAnswer();
         }
     }
+
+    public void TurnOnVoiceRecognition()
+    {
+        foreach (CommandTurnOffAfterUse ctoau in CommandsTurnOff)
+        {
+            ctoau.turnOnThisAnswer();
+        }
+    }
 }
