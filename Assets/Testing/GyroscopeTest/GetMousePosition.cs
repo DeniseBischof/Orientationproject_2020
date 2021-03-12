@@ -16,7 +16,7 @@ public class GetMousePosition : MonoBehaviour
     IEnumerator fadeSound;
 
     private bool wandMoving;
-    public GameObject turnOnObject;
+    public GameObject[] turnOnObject;
 
     void Start()
     {
@@ -56,7 +56,6 @@ public class GetMousePosition : MonoBehaviour
         {
             wandSound.UnPause();
             counter += 1;
-            Debug.Log(counter);
         }
 
     }
@@ -106,11 +105,19 @@ public class GetMousePosition : MonoBehaviour
     {
         if (wandMoving)
         {
-            turnOnObject.SetActive(true);
+            for (int i = 0; i < turnOnObject.Length; i++)
+            {
+               
+                turnOnObject[i].SetActive(true);
+            }
         }
         else
         {
-            turnOnObject.SetActive(false);
+            for (int i = 0; i < turnOnObject.Length; i++)
+            {
+                
+                turnOnObject[i].SetActive(false);
+            }
         }
     }
 
