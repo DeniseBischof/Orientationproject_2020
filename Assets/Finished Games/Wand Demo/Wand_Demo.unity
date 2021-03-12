@@ -2671,6 +2671,8 @@ GameObject:
   m_Component:
   - component: {fileID: 792734800}
   - component: {fileID: 792734801}
+  - component: {fileID: 792734803}
+  - component: {fileID: 792734802}
   m_Layer: 0
   m_Name: LeaveScene
   m_TagString: Untagged
@@ -2788,6 +2790,48 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &792734802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 792734799}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05ee1bd73481b8a4d90be11a7e7848f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &792734803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 792734799}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d115ac1cd43818041b4b302cc4e46d06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wordsToDetect:
+  - restart
+  - start
+  getCounter:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 792734802}
+        m_TargetAssemblyTypeName: GoToNextScene, Assembly-CSharp
+        m_MethodName: goToNextScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Wand_Demo
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &830392354
 GameObject:
   m_ObjectHideFlags: 0
@@ -3030,8 +3074,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1010387755}
-  - component: {fileID: 1010387756}
-  - component: {fileID: 1010387757}
   m_Layer: 0
   m_Name: SpeechRecognition
   m_TagString: Untagged
@@ -3055,47 +3097,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1010387756
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1010387754}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 63f0d2a9ff1f88a4cb9020bfec5e2318, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  wordsToDetect:
-  - restart
-  getCounter:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1010387757}
-        m_TargetAssemblyTypeName: GoToNextScene, Assembly-CSharp
-        m_MethodName: goToNextScene
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Start_Wand_Demo
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &1010387757
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1010387754}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 05ee1bd73481b8a4d90be11a7e7848f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1040732902
 GameObject:
   m_ObjectHideFlags: 0
@@ -4065,7 +4066,6 @@ Transform:
   m_LocalPosition: {x: -13.52, y: -16.25, z: -6.276543}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1223328529}
   - {fileID: 2078163950}
   m_Father: {fileID: 0}
   m_RootOrder: 14
@@ -4182,92 +4182,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: c24dc94a4d1c9024489ccb9c771aaf55, type: 3}
   - {fileID: 8300000, guid: 8442b0dd7dc6e2246852133d9aaec462, type: 3}
   - {fileID: 8300000, guid: 9eaf70cd921897c479fbfbd205bf2c43, type: 3}
---- !u!1 &1223328528
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1223328529}
-  - component: {fileID: 1223328530}
-  m_Layer: 0
-  m_Name: TurnOnMusic
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &1223328529
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1223328528}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1220865811}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1223328530
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1223328528}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 63f0d2a9ff1f88a4cb9020bfec5e2318, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  wordsToDetect:
-  - on
-  - start
-  getCounter:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1220865813}
-        m_TargetAssemblyTypeName: FootStepsSound, Assembly-CSharp
-        m_MethodName: playFootstepSound
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 1223328530}
-        m_TargetAssemblyTypeName: UnityWebGLSpeechDetection.CommandTurnOffAfterUse,
-          Assembly-CSharp
-        m_MethodName: turnOnThisAnswer
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 1223328528}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!1 &1223377731
 GameObject:
   m_ObjectHideFlags: 0
@@ -6051,7 +5965,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1220865811}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2078163951
 MonoBehaviour:
@@ -6084,7 +5998,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1223328528}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
