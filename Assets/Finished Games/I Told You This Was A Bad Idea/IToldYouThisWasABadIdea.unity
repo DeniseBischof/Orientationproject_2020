@@ -988,6 +988,7 @@ GameObject:
   - component: {fileID: 99880520}
   - component: {fileID: 99880519}
   - component: {fileID: 99880518}
+  - component: {fileID: 99880522}
   m_Layer: 0
   m_Name: 1_WHO_ARE_YOU
   m_TagString: Untagged
@@ -1020,7 +1021,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: cd1d5cd902478ef4b9c7728aadb29dec, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 337ccde508dee574ebbf2082e09b4f5e, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -1185,6 +1186,33 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 99880516}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &99880522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 99880516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49b2e4bd111ff1f4d9c1b8fa6f690edf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  getCounter:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1780413682}
+        m_TargetAssemblyTypeName: FateCounter, Assembly-CSharp
+        m_MethodName: CheckKnowledge
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &116824665
 GameObject:
   m_ObjectHideFlags: 0
@@ -6872,6 +6900,7 @@ GameObject:
   - component: {fileID: 585266308}
   - component: {fileID: 585266307}
   - component: {fileID: 585266306}
+  - component: {fileID: 585266310}
   m_Layer: 0
   m_Name: 7_NEXT
   m_TagString: Untagged
@@ -6904,7 +6933,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 337ccde508dee574ebbf2082e09b4f5e, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -7059,6 +7088,33 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 585266304}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &585266310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 585266304}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49b2e4bd111ff1f4d9c1b8fa6f690edf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  getCounter:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1780413682}
+        m_TargetAssemblyTypeName: FateCounter, Assembly-CSharp
+        m_MethodName: CheckKnowledge
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &627364496
 GameObject:
   m_ObjectHideFlags: 0
@@ -9118,6 +9174,7 @@ GameObject:
   - component: {fileID: 795275220}
   - component: {fileID: 795275219}
   - component: {fileID: 795275218}
+  - component: {fileID: 795275222}
   m_Layer: 0
   m_Name: 4_COUNCIL
   m_TagString: Untagged
@@ -9150,7 +9207,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 337ccde508dee574ebbf2082e09b4f5e, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -9308,6 +9365,33 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 795275216}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &795275222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 795275216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49b2e4bd111ff1f4d9c1b8fa6f690edf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  getCounter:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1780413682}
+        m_TargetAssemblyTypeName: FateCounter, Assembly-CSharp
+        m_MethodName: CheckKnowledge
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &795857490
 GameObject:
   m_ObjectHideFlags: 0
@@ -10070,6 +10154,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: TurnOffScriptInAllChildren, Assembly-CSharp
         m_MethodName: TurnOffVoiceRecognition
         m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 762034366}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -11525,6 +11621,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1543603454}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!1 &929396951
 GameObject:
   m_ObjectHideFlags: 0
@@ -11707,6 +11815,7 @@ GameObject:
   - component: {fileID: 956176534}
   - component: {fileID: 956176533}
   - component: {fileID: 956176532}
+  - component: {fileID: 956176536}
   m_Layer: 0
   m_Name: 3_WHERE
   m_TagString: Untagged
@@ -11739,7 +11848,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 337ccde508dee574ebbf2082e09b4f5e, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -11908,6 +12017,33 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 956176530}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &956176536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 956176530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49b2e4bd111ff1f4d9c1b8fa6f690edf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  getCounter:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1780413682}
+        m_TargetAssemblyTypeName: FateCounter, Assembly-CSharp
+        m_MethodName: CheckKnowledge
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &994031681
 GameObject:
   m_ObjectHideFlags: 0
@@ -13781,6 +13917,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: TurnOffScriptInAllChildren, Assembly-CSharp
         m_MethodName: TurnOffVoiceRecognition
         m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1410098796}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -16988,6 +17136,7 @@ GameObject:
   - component: {fileID: 1342316440}
   - component: {fileID: 1342316439}
   - component: {fileID: 1342316438}
+  - component: {fileID: 1342316442}
   m_Layer: 0
   m_Name: 0_WHO_AM_I
   m_TagString: Untagged
@@ -17184,6 +17333,33 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1342316436}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1342316442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1342316436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49b2e4bd111ff1f4d9c1b8fa6f690edf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  getCounter:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1780413682}
+        m_TargetAssemblyTypeName: FateCounter, Assembly-CSharp
+        m_MethodName: CheckKnowledge
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1345433042
 GameObject:
   m_ObjectHideFlags: 0
@@ -18852,6 +19028,7 @@ GameObject:
   - component: {fileID: 1436431184}
   - component: {fileID: 1436431183}
   - component: {fileID: 1436431182}
+  - component: {fileID: 1436431186}
   m_Layer: 0
   m_Name: 6_TRIAL
   m_TagString: Untagged
@@ -18884,7 +19061,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 337ccde508dee574ebbf2082e09b4f5e, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -19040,6 +19217,33 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1436431180}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1436431186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1436431180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49b2e4bd111ff1f4d9c1b8fa6f690edf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  getCounter:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1780413682}
+        m_TargetAssemblyTypeName: FateCounter, Assembly-CSharp
+        m_MethodName: CheckKnowledge
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1442342160
 GameObject:
   m_ObjectHideFlags: 0
@@ -20162,6 +20366,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 722487825}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!1 &1521368989
 GameObject:
   m_ObjectHideFlags: 0
@@ -20892,6 +21108,7 @@ GameObject:
   - component: {fileID: 1567720734}
   - component: {fileID: 1567720733}
   - component: {fileID: 1567720732}
+  - component: {fileID: 1567720736}
   m_Layer: 0
   m_Name: 8_WHY
   m_TagString: Untagged
@@ -20924,7 +21141,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 337ccde508dee574ebbf2082e09b4f5e, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -21099,6 +21316,33 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1567720730}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1567720736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1567720730}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49b2e4bd111ff1f4d9c1b8fa6f690edf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  getCounter:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1780413682}
+        m_TargetAssemblyTypeName: FateCounter, Assembly-CSharp
+        m_MethodName: CheckKnowledge
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1593336452
 GameObject:
   m_ObjectHideFlags: 0
@@ -21112,6 +21356,7 @@ GameObject:
   - component: {fileID: 1593336456}
   - component: {fileID: 1593336455}
   - component: {fileID: 1593336454}
+  - component: {fileID: 1593336458}
   m_Layer: 0
   m_Name: 5_PLAN
   m_TagString: Untagged
@@ -21144,7 +21389,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 337ccde508dee574ebbf2082e09b4f5e, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -21306,6 +21551,33 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1593336452}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1593336458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1593336452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49b2e4bd111ff1f4d9c1b8fa6f690edf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  getCounter:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1780413682}
+        m_TargetAssemblyTypeName: FateCounter, Assembly-CSharp
+        m_MethodName: CheckKnowledge
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1632008732
 GameObject:
   m_ObjectHideFlags: 0
@@ -25796,6 +26068,7 @@ GameObject:
   - component: {fileID: 2042482842}
   - component: {fileID: 2042482841}
   - component: {fileID: 2042482840}
+  - component: {fileID: 2042482844}
   m_Layer: 0
   m_Name: 2_WHAT_HAPPENED
   m_TagString: Untagged
@@ -25828,7 +26101,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 337ccde508dee574ebbf2082e09b4f5e, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -25995,6 +26268,33 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2042482838}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2042482844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2042482838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49b2e4bd111ff1f4d9c1b8fa6f690edf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  getCounter:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1780413682}
+        m_TargetAssemblyTypeName: FateCounter, Assembly-CSharp
+        m_MethodName: CheckKnowledge
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2043238364
 GameObject:
   m_ObjectHideFlags: 0
