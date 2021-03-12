@@ -15,6 +15,8 @@ public class GetGyroscopeData : MonoBehaviour
     [SerializeField]
     public int counter = 0;
 
+    public bool vibrate;
+
     AudioSource wandSound;
 
     void Start()
@@ -47,6 +49,17 @@ public class GetGyroscopeData : MonoBehaviour
             return inData;
         }
         catch { return string.Empty; }
+    }
+
+    public void writeSerialOutput()
+    {
+        if (vibrate) { 
+        sp.Write("5");
+        }
+        else
+        {
+          sp.Write("0");
+        }
     }
 
     private void readSerialInput()
