@@ -5,21 +5,18 @@ using UnityEngine;
 public class FateCounter : MonoBehaviour
 {
     public int Good = 0;
-    public int Bad = 0;
     public int Knowledge = 0;
 
     public GameObject EndSequence;
+    public GameObject GoodEnding;
+    public GameObject BadEnding;
 
     public void AddGood()
     {
         Good = Good+1;
         Debug.Log("Good: " + Good);
     }
-    public void AddBad()
-    {
-        Bad = Bad+1;
-        Debug.Log("Bad: " + Bad);
-    }
+
     public void AddKnowledge()
     {
         Knowledge = Knowledge + 1;
@@ -32,5 +29,18 @@ public class FateCounter : MonoBehaviour
         {
             EndSequence.SetActive(true);
         }
+    }
+
+    public void checkFate()
+    {
+        if(Good> 4)
+        {
+            GoodEnding.SetActive(true);
+        }
+        else
+        {
+            BadEnding.SetActive(true);
+        }
+
     }
 }
