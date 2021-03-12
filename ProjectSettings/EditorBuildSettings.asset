@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Finished Games/The Beast in the Cave/TheBeastInTheCave.unity
     guid: dee23a7f68804c44c8ba18d48a484a97
   - enabled: 1
+    path: Assets/Finished Games/Wand Demo/Start_Wand_Demo.unity
+    guid: ce190e76c585c5c418d4ff031a1c6d73
+  - enabled: 1
     path: Assets/Finished Games/Wand Demo/Wand_Demo.unity
     guid: 0797db3d35b8c7d45a7b099678a021f5
   m_configObjects: {}
