@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Finished Games/I Told You This Was A Bad Idea/Start_I_Told_You_This.unity
+    guid: c37daa895b336bb40a4fe3447af159dc
+  - enabled: 1
     path: Assets/Finished Games/I Told You This Was A Bad Idea/IToldYouThisWasABadIdea.unity
     guid: 14a56d65068716d43af74e743372550d
   - enabled: 0

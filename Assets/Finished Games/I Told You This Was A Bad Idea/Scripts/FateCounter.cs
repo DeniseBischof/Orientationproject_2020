@@ -20,7 +20,7 @@ public class FateCounter : MonoBehaviour
     public void AddKnowledge()
     {
         Knowledge = Knowledge + 1;
-        Debug.Log("Neutral: " + Knowledge);
+        Debug.Log("Knowledge: " + Knowledge);
     }
 
     public void CheckKnowledge()
@@ -33,7 +33,7 @@ public class FateCounter : MonoBehaviour
 
     public void checkFate()
     {
-        if(Good> 4)
+        if(Good> 5)
         {
             GoodEnding.SetActive(true);
         }
